@@ -1,0 +1,125 @@
+@import "src/styles/vars";
+@import "src/styles/mixins";
+
+.loginContainer {
+    width: calc(937px / $desktop-width) * 100%;
+    height: 95vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 106px;
+
+        & .previewImages {
+            display: flex;
+            gap: 45px;
+        }
+    }
+
+    form {
+        width: 240px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 37px;
+        padding-bottom: 19px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px;
+        background-color: $secondary;
+
+        input {
+            @include font(1.6rem, 1.43rem, 400);
+            background-color: inherit;
+            text-decoration: none;
+            border: none;
+            margin-bottom: 10px;
+            border-bottom: 1px solid $primary;
+        }
+
+        label {
+            @include font(1.6rem, 1.43rem, 400)
+        }
+
+        input:focus {
+            outline: none;
+        }
+
+            label {
+                display: flex;
+                align-items: center;
+
+                margin-top: 25px;
+
+                input {
+                    opacity: 0;
+                    margin: 0;
+                    width: 15px;
+                    height: 15px;
+                    margin-right: 6px;
+                }
+
+                input:checked ~ span {
+                    background-color: $primary;
+                }
+
+                span {
+                    cursor: pointer;
+                    border-radius: 3px;
+                    position: absolute;
+                    width: 14px;
+                    height: 14px;
+                    border: 1px solid $primary;
+                }
+
+            }
+
+            button[type=submit] {
+                cursor: pointer;
+                color: #fff;
+                @include font(1.6rem, 1.43rem, 400);
+                width: 100%;
+                background-color: $primary;
+                padding: 9px 0;
+                border: none;
+                border-radius: 3px;
+                margin-top: 21px;
+            }
+    }
+
+    .passwordRecoveryLink {
+        color: #000;
+        @include font(1.2rem, 1.47rem, 400);
+        text-decoration: none;
+        margin-top: 21px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .loginContainer {
+        width: (570px / $netbook-width) * 100%;
+    }
+    .previewImages img:nth-child(2) {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .loginContainer {
+        flex-direction: column;
+        justify-content: center;
+        gap: 46px;
+        
+        header {
+            gap: 0px;
+        }
+    }
+    .previewImages img {
+        display: none;
+    }
+}

@@ -1,0 +1,19 @@
+@import "src/styles/vars";
+
+@mixin font($size, $height, $weight) {
+    font-size: $size;
+    line-height: $height;
+    font-weight: $weight;
+}
+
+@mixin bad {
+    background-color: $primary;
+}
+
+@mixin average {
+    background-color: $average;
+}
+
+@mixin good {
+    background-color: $good;
+}

@@ -1,0 +1,136 @@
+@import "src/styles/vars";
+@import "src/styles/mixins";
+
+.activityMenu {
+    padding-right: 4px;
+    position: fixed;
+    z-index: 3;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100vh;
+    right: 10px;
+    top: 0px;
+    transition: transform .5s ease-in-out;
+
+    a {
+        text-decoration: none;
+    }
+
+    &::-webkit-scrollbar {
+        width: 5px;
+        border-radius: 3px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 3px;
+        margin-top: 200px;
+    }
+    &::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+    &List {
+        padding: 0;
+        display: grid;
+        row-gap: 12px;
+        width: calc((290px / 1440px) * 100vw);
+        min-width: 290px;
+
+        .listItem {
+            cursor: pointer;
+            padding-right: 15px;
+            border-radius: 15px;
+            display: grid;
+            gap: 4px;
+            grid-template-columns: auto 1fr;
+            justify-content: space-between;
+
+            .patient {
+                &Image {
+                    width: 76px;
+                    height: 80px;
+                    background-color: $secondary;
+                    border-radius: 15px;
+                }
+
+                &Info {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 13px;
+
+                    &Row {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: start;
+                        align-items: center;
+
+                        &Title {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            color: #000;
+
+                            .patient {
+                                &Name {
+                                    @include font(1.6rem, 2.3rem, 400);
+                                }
+
+                                &Ward {
+                                    @include font(1.6rem, 2.3rem, 400);
+                                }
+                            }
+                        }
+
+                        .patient {
+                            &Assignments {
+                                padding: 0;
+                                display: flex;
+                                list-style-type: none;
+                                flex-direction: column;
+                                color: #fff;
+                                @include font(1.6rem, 2.3rem, 400);
+                            }
+
+                            &AssignmentDateTime {
+                                @include font(1.6rem, 2.3rem, 400);
+                                color: red;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .activityMenu {
+        transform: translateX(110%);
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .activityMenu {
+        top: 84px;
+        width: 95%;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+
+        &List {
+            min-width: 0;
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .activityMenu {
+        top: 104px;
+    }
+}

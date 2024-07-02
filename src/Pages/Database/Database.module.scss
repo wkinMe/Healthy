@@ -1,0 +1,58 @@
+@import "src/styles/mixins";
+@import "src/styles/vars";
+
+.databaseContent {
+    max-width: 1108px;
+    margin-inline: auto;
+    margin-top: 34px;
+
+    .inputBlock {
+        height: 67px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+
+        background-color: $secondary;
+
+        input {
+            font-size: 24px;
+
+            height: inherit;
+            border: none;
+            background-color: inherit;
+            outline: none;
+
+        }
+
+        img {
+            height: 24px;
+        }
+    }
+
+    ol {
+        list-style-type: none;
+        min-height: 405px;
+        background-color: $secondary;
+
+        padding-left: 24px;
+        padding-right: 15px;
+        padding-top: 16px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        li {
+            border-bottom: 1px solid #000;
+            font-size: 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            a {
+                color: #000;
+                text-decoration: none;
+            }
+        }
+    }
+}

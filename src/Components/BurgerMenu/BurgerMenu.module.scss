@@ -1,0 +1,44 @@
+@import "src/styles/vars";
+@import "src/styles/mixins";
+
+
+.burgerMenu {
+    background-color: inherit;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    display: none;
+    transition: opacity .3s .2s linear;
+
+    .notifications {
+        @include font(1.6rem, 1.43rem, 400);
+        color: #FF0000;
+    }
+
+    .lines {
+        width: 30px;
+        height: 15px;
+        display: flex;
+        flex-direction: column;
+
+        position: relative;
+        gap: 3px;
+        margin-left: 4px;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .burgerMenu {
+        display: flex;
+
+        // align-items: center;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .notifications {
+        display: none;
+    }
+}

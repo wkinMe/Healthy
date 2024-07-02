@@ -1,0 +1,53 @@
+@import "src/styles/vars";
+@import "src/styles/mixins";
+
+.choosePlace {
+    display: flex;
+    justify-content: center;
+
+    &Block {
+        max-width: (960px - 28px * 2);
+        min-width: 600px;
+        min-height: 430px;
+        padding: 0 28px;
+        background-color: $secondary;
+        border-radius: 15px;
+        margin-top: 50px;
+
+        ul {
+            padding: 0;
+            list-style-type: none;
+
+            & > li {
+                text-align: left;
+                cursor: pointer;
+                margin-bottom: 15px;
+                border-bottom: #000 solid 1px;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 515px) {
+    .choosePlace {
+        &Block {
+            margin: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .choosePlace {
+        &Block {
+            padding: 0 10px;
+            ul {
+                & > li {
+                    border-radius: 15px;
+                    border: 1px solid #000;
+                    padding: 15px;
+                }
+            }
+        }
+    }
+}

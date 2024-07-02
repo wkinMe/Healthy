@@ -1,0 +1,1197 @@
+{
+  "patients": [
+    {
+      "id": "0",
+      "status": "bad",
+      "lastName": "Николаев",
+      "firstName": "Пётр",
+      "surname": "Иванович",
+      "spot": {
+        "department": "Therapy",
+        "house": "1",
+        "floor": "2",
+        "ward": "1",
+        "bed": "1"
+      },
+      "dossier": {
+        "dateOfBirth": "25.11.1980",
+        "previousDiseases": [
+          {
+            "title": "Удаление аппендикса",
+            "ageOfIllness": 18,
+            "startOfTreatment": "29.03.1998",
+            "endOfTreatment": "14.04.1998",
+            "comments": "Удаление прошло успешно. Восстановительный период нормальный. Замечание: во время восстановительного периода часто возникало чувство тяжести в животе."
+          },
+          {
+            "title": "Перелом левой бедренной кости со смещением",
+            "ageOfIllness": 25,
+            "startOfTreatment": "13.01.2005",
+            "endOfTreatment": "18.02.2005",
+            "comments": "По мере срастания костей было замечено неправильное направление роста кости, путём хирургического вмешательства срастание кости было нормализировано"
+          }
+        ],
+        "contradictions": [
+          "Аллергия на цитрусы"
+        ]
+      },
+      "assignments": [
+        {
+          "titles": [
+            "Проветривание лёгких"
+          ],
+          "urgent": true
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "status": "bad",
+      "lastName": "Глушко",
+      "firstName": "Анна",
+      "surname": "Сергеевна",
+      "spot": {
+        "department": "Therapy",
+        "house": "1",
+        "floor": "2",
+        "ward": "1",
+        "bed": "2"
+      },
+      "dossier": {
+        "dateOfBirth": "01.01.1930",
+        "previousDiseases": [
+          {
+            "title": "Краснуха",
+            "ageOfIllness": 12,
+            "startOfTreatment": "08.03.1942",
+            "endOfTreatment": "22.03.1942",
+            "comments": "Поступила с жалобами на высыпания на лице и шее. Жар, лихорадка (37.5оС). При выписке незначительные головные боли, быстрая утомляемость."
+          },
+          {
+            "title": "Гнойный отит",
+            "ageOfIllness": 16,
+            "startOfTreatment": "13.02.1946",
+            "endOfTreatment": "05.03.1946",
+            "comments": "Ввиду запоздалого лечения потеря слуха правого уха"
+          },
+          {
+            "title": "Фурункулёз",
+            "ageOfIllness": 17,
+            "startOfTreatment": "26.11.1947",
+            "endOfTreatment": "15.12.1947",
+            "comments": "После заживления множественные рубцы на задней поверхности шеи и верхней половине спины"
+          },
+          {
+            "title": "Ампутация правой голени",
+            "ageOfIllness": 85,
+            "startOfTreatment": "02.05.2015",
+            "endOfTreatment": "09.05.2015",
+            "comments": "Осложнений нет"
+          }
+        ],
+        "contradictions": [
+          "СД 2 типа",
+          "ХСН 1 степени тяжести"
+        ]
+      },
+      "assignments": [
+        {
+          "titles": [
+            "Трамадол 500 мг",
+            "Фенкарол 25 мг"
+          ],
+          "urgent": true
+        },
+        {
+          "titles": [
+            "Капельница"
+          ],
+          "urgent": true
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "status": "average",
+      "lastName": "Бутько",
+      "firstName": "Степан",
+      "surname": "Филимонович",
+      "spot": {
+        "department": "Therapy",
+        "house": "1",
+        "floor": "2",
+        "ward": "1",
+        "bed": "3"
+      },
+      "dossier": {
+        "dateOfBirth": "06.06.1973",
+        "previousDiseases": [
+          {
+            "title": "Туберкулёз лёгких",
+            "ageOfIllness": 35,
+            "startOfTreatment": "29.07.2008",
+            "endOfTreatment": "14.04.2011",
+            "comments": "Находится на контроле у фтизиатра."
+          }
+        ],
+        "contradictions": [
+          "Непереносимость глютена"
+        ]
+      },
+      "assignments": [
+        {
+          "titles": [
+            "Трамадол 500 мг",
+            "Фенкарол 25 мг"
+          ],
+          "urgent": true
+        },
+        {
+          "titles": [
+            "Подготовка к операции"
+          ],
+          "urgent": false
+        },
+        {
+          "titles": [
+            "МРТ"
+          ],
+          "urgent": true
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "status": "good",
+      "lastName": "Васильев",
+      "firstName": "Антон",
+      "surname": "Александрович",
+      "spot": {
+        "department": "Therapy",
+        "house": "1",
+        "floor": "2",
+        "ward": "1",
+        "bed": "4"
+      },
+      "dossier": {
+        "dateOfBirth": "15.10.2009",
+        "previousDiseases": [
+          {
+            "title": "Ветряная оспа",
+            "ageOfIllness": 10,
+            "startOfTreatment": "16.04.2020",
+            "endOfTreatment": "31.04.2020",
+            "comments": "Лечение проходил на дому."
+          }
+        ],
+        "contradictions": []
+      },
+      "assignments": [
+        {
+          "titles": [
+            "Трамадол 500 мг",
+            "Фенкарол 25 мг"
+          ],
+          "urgent": true
+        },
+        {
+          "titles": [
+            "МРТ"
+          ],
+          "urgent": false
+        },
+        {
+          "titles": [
+            "Подготовка к операции"
+          ],
+          "urgent": false
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "status": "bad",
+      "lastName": "Мелешков",
+      "firstName": "Никита",
+      "surname": "Александрович",
+      "spot": {
+        "department": "Therapy",
+        "house": "1",
+        "floor": "2",
+        "ward": "1",
+        "bed": "5"
+      },
+      "dossier": {
+        "dateOfBirth": "26.11.2004",
+        "previousDiseases": [
+          {
+            "title": "Воспаление лёгких",
+            "ageOfIllness": 1,
+            "startOfTreatment": "12.01.2006",
+            "endOfTreatment": "03.02.2006",
+            "comments": "Лечение проходил в реанимации."
+          },
+          {
+            "title": "Ветряная оспа",
+            "ageOfIllness": 7,
+            "startOfTreatment": "20.05.2012",
+            "endOfTreatment": "27.05.2012",
+            "comments": "Осложнений не наблюдалось."
+          }
+        ],
+        "contradictions": [
+          "Диастаз прямых мышц живота, риск пупочной грыжи"
+        ]
+      },
+      "assignments": [
+        {
+          "titles": [
+            "Трамадол 500 мг",
+            "Фенкарол 25 мг"
+          ],
+          "urgent": true
+        },
+        {
+          "titles": [
+            "МРТ"
+          ],
+          "urgent": false
+        },
+        {
+          "titles": [
+            "Подготовка к операции"
+          ],
+          "urgent": false
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "status": "bad",
+      "lastName": "Семеняго",
+      "firstName": "Аврора",
+      "surname": "Леонидовна",
+      "spot": {
+        "department": "Therapy",
+        "house": "1",
+        "floor": "2",
+        "ward": "1",
+        "bed": "6"
+      },
+      "dossier": {
+        "dateOfBirth": "25.02.2015",
+        "previousDiseases": [
+          {
+            "title": "Целиакия",
+            "ageOfIllness": 5,
+            "startOfTreatment": "11.01.2021",
+            "endOfTreatment": "22.01.2021",
+            "comments": "Пожизненно соблюдает безглютеновую диету."
+          },
+          {
+            "title": "Удаление доброкачественной меланомы",
+            "ageOfIllness": 6,
+            "startOfTreatment": "03.02.2024",
+            "endOfTreatment": "03.02.2024",
+            "comments": "Операция прошла успешно."
+          }
+        ],
+        "contradictions": [
+          "Значительный дефицит массы тела",
+          "Анемия"
+        ]
+      },
+      "assignments": [
+        {
+          "titles": [
+            "Трамадол 500 мг",
+            "Фенкарол 25 мг"
+          ],
+          "urgent": true
+        },
+        {
+          "titles": [
+            "МРТ"
+          ],
+          "urgent": false
+        },
+        {
+          "titles": [
+            "Подготовка к операции"
+          ],
+          "urgent": false
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "status": "good",
+      "lastName": "Иванова",
+      "firstName": "Мария",
+      "surname": "Анатольевна",
+      "spot": {
+        "department": "Therapy",
+        "house": "1",
+        "floor": "2",
+        "ward": "2",
+        "bed": "1"
+      },
+      "dossier": {
+        "dateOfBirth": "28.02.1981",
+        "previousDiseases": [
+          {
+            "title": "Удаление левой молочной железы",
+            "ageOfIllness": 41,
+            "startOfTreatment": "11.04.2022",
+            "endOfTreatment": "27.04.2022",
+            "comments": "Проведена операция по поводу рака молочной железы, без осложнений."
+          }
+        ],
+        "contradictions": [
+          "АГ 2 степени тяжести"
+        ]
+      },
+      "assignments": [
+        {
+          "titles": [
+            "Трамадол 500 мг",
+            "Фенкарол 25 мг"
+          ],
+          "urgent": true
+        },
+        {
+          "titles": [
+            "МРТ"
+          ],
+          "urgent": false
+        },
+        {
+          "titles": [
+            "Подготовка к операции"
+          ],
+          "urgent": false
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "status": "average",
+      "lastName": "Жихаркина",
+      "firstName": "Анастасия",
+      "surname": "Николаевна",
+      "spot": {
+        "department": "Therapy",
+        "house": "1",
+        "floor": "2",
+        "ward": "2",
+        "bed": "2"
+      },
+      "dossier": {
+        "dateOfBirth": "13.08.1999",
+        "previousDiseases": [
+          {
+            "title": "ОРВИ",
+            "ageOfIllness": 15,
+            "startOfTreatment": "11.11.2014",
+            "endOfTreatment": "15.11.2014",
+            "comments": "Осложнений нет."
+          },
+          {
+            "title": "ОРВИ",
+            "ageOfIllness": 16,
+            "startOfTreatment": "25.10.2015",
+            "endOfTreatment": "31.10.2015",
+            "comments": "Осложнений нет."
+          },
+          {
+            "title": "ОРВИ",
+            "ageOfIllness": 16,
+            "startOfTreatment": "11.04.2016",
+            "endOfTreatment": "27.04.2016",
+            "comments": "После положительного результата анализов поставлен диагноз СПИД."
+          }
+        ],
+        "contradictions": [
+          "Бронхиальная астма",
+          "Аллергия на шерсть домашних животных",
+          "СПИД"
+        ]
+      },
+      "assignments": [
+        {
+          "titles": [
+            "Трамадол 500 мг",
+            "Фенкарол 25 мг"
+          ],
+          "urgent": true
+        },
+        {
+          "titles": [
+            "МРТ"
+          ],
+          "urgent": false
+        },
+        {
+          "titles": [
+            "Подготовка к операции"
+          ],
+          "urgent": false
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "status": "average",
+      "lastName": "Шершнюк",
+      "firstName": "Гаврила",
+      "surname": "Михайлович",
+      "spot": {
+        "department": "Therapy",
+        "house": "1",
+        "floor": "2",
+        "ward": "2",
+        "bed": "3"
+      },
+      "dossier": {
+        "dateOfBirth": "05.03.1973",
+        "previousDiseases": [
+          {
+            "title": "Ветряная оспа",
+            "ageOfIllness": 8,
+            "startOfTreatment": "20.05.1981",
+            "endOfTreatment": "27.05.1981",
+            "comments": "Осложнений не наблюдалось."
+          },
+          {
+            "title": "Первичный сифилис",
+            "ageOfIllness": 12,
+            "startOfTreatment": "16.02.1986",
+            "endOfTreatment": "31.10.1986",
+            "comments": "В ходе анамнеза было выяснено, что заразился контактно-бытовым путём от матери. Проведена антибиотикотерапия."
+          },
+          {
+            "title": "Перелом голени",
+            "ageOfIllness": 15,
+            "startOfTreatment": "15.05.1988",
+            "endOfTreatment": "14.08.1988",
+            "comments": "Закрытый перелом большеберцовой и малоберцовой костей, смещения или отломков нет."
+          },
+          {
+            "title": "Левосторонний тубоотит",
+            "ageOfIllness": 15,
+            "startOfTreatment": "17.12.1988",
+            "endOfTreatment": "23.12.1988",
+            "comments": "Без осложнений."
+          },
+          {
+            "title": "Грипп",
+            "ageOfIllness": 16,
+            "startOfTreatment": "14.11.1989",
+            "endOfTreatment": "28.11.1989",
+            "comments": "Без осложнений."
+          }
+        ],
+        "contradictions": []
+      },
+      "assignments": [
+        {
+          "titles": [
+            "Трамадол 500 мг",
+            "Фенкарол 25 мг"
+          ],
+          "urgent": true
+        },
+        {
+          "titles": [
+            "МРТ"
+          ],
+          "urgent": false
+        },
+        {
+          "titles": [
+            "Подготовка к операции"
+          ],
+          "urgent": false
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "status": "good",
+      "lastName": "Бондарь",
+      "firstName": "Виталий",
+      "surname": "Алексеевич",
+      "spot": {
+        "department": "Therapy",
+        "house": "1",
+        "floor": "2",
+        "ward": "2",
+        "bed": "4"
+      },
+      "dossier": {
+        "dateOfBirth": "20.09.1985",
+        "previousDiseases": [
+          {
+            "title": "Операция по смене пола",
+            "ageOfIllness": 21,
+            "startOfTreatment": "11.04.2006",
+            "endOfTreatment": "27.04.2006",
+            "comments": "Операция прошла успешно."
+          },
+          {
+            "title": "Гистерэктомия",
+            "ageOfIllness": 25,
+            "startOfTreatment": "02.07.2010",
+            "endOfTreatment": "15.07.2006",
+            "comments": "Операция прошла успешно."
+          }
+        ],
+        "contradictions": [
+          "СД 1 типа"
+        ]
+      },
+      "assignments": [
+        {
+          "titles": [
+            "Трамадол 500 мг",
+            "Фенкарол 25 мг"
+          ],
+          "urgent": true
+        },
+        {
+          "titles": [
+            "МРТ"
+          ],
+          "urgent": false
+        },
+        {
+          "titles": [
+            "Подготовка к операции"
+          ],
+          "urgent": false
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "status": "good",
+      "lastName": "Белоус",
+      "firstName": "Николай",
+      "surname": "Григорьевич",
+      "spot": {
+        "department": "Therapy",
+        "house": "1",
+        "floor": "2",
+        "ward": "2",
+        "bed": "5"
+      },
+      "dossier": {
+        "dateOfBirth": "06.10.1997",
+        "previousDiseases": [
+          {
+            "title": "Ветряная оспа",
+            "ageOfIllness": 6,
+            "startOfTreatment": "10.04.2004",
+            "endOfTreatment": "26.04.2006",
+            "comments": "Без осложнений."
+          },
+          {
+            "title": "Гидронефроз левой почки",
+            "ageOfIllness": 17,
+            "startOfTreatment": "02.12.2014",
+            "endOfTreatment": "09.12.2014",
+            "comments": "В ходе оперативного вмешательства была удалена левая почка."
+          },
+          {
+            "title": "Перелом левой ключицы",
+            "ageOfIllness": 19,
+            "startOfTreatment": "29.10.2016",
+            "endOfTreatment": "15.12.2016",
+            "comments": "Закрытый перелом средней трети левой ключицы, попереечный, без смещения. Сращение кости прошло без осложнений."
+          }
+        ],
+        "contradictions": [
+          "Аллергия на производственную пыль и морепродукты"
+        ]
+      },
+      "assignments": [
+        {
+          "titles": [
+            "Трамадол 500 мг",
+            "Фенкарол 25 мг"
+          ],
+          "urgent": true
+        },
+        {
+          "titles": [
+            "МРТ"
+          ],
+          "urgent": false
+        },
+        {
+          "titles": [
+            "Подготовка к операции"
+          ],
+          "urgent": false
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "status": "good",
+      "lastName": "Павлов",
+      "firstName": "Олег",
+      "surname": "Уильямович",
+      "spot": {
+        "department": "Therapy",
+        "house": "1",
+        "floor": "2",
+        "ward": "3",
+        "bed": "1"
+      },
+      "dossier": {
+        "dateOfBirth": "18.12.1963",
+        "previousDiseases": [
+          {
+            "title": "Множественные ожоги",
+            "ageOfIllness": 25,
+            "startOfTreatment": "15.10.1999",
+            "endOfTreatment": "14.12.1999",
+            "comments": "Поражение 73% поверхности тела в ходе взрыва, осложнённые ушибами и предшествующими побоями."
+          }
+        ],
+        "contradictions": []
+      },
+      "assignments": [
+        {
+          "titles": [
+            "Трамадол 500 мг",
+            "Фенкарол 25 мг"
+          ],
+          "urgent": true
+        },
+        {
+          "titles": [
+            "МРТ"
+          ],
+          "urgent": false
+        },
+        {
+          "titles": [
+            "Подготовка к операции"
+          ],
+          "urgent": false
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "status": "bad",
+      "lastName": "Матушенко",
+      "firstName": "Игорь",
+      "surname": "Леонидович",
+      "spot": {
+        "department": "Therapy",
+        "house": "1",
+        "floor": "2",
+        "ward": "3",
+        "bed": "2"
+      },
+      "dossier": {
+        "dateOfBirth": "15.10.1955",
+        "previousDiseases": [
+          {
+            "title": "Перелом носа",
+            "ageOfIllness": 33,
+            "startOfTreatment": "09.03.1989",
+            "endOfTreatment": "22.04.1989",
+            "comments": "Закрытый перелом носовой кости. Впоследствии был осложнён пансинуситом."
+          },
+          {
+            "title": "Инфаркт миокарда",
+            "ageOfIllness": 54,
+            "startOfTreatment": "05.11.2009",
+            "endOfTreatment": "10.11.2009",
+            "comments": "Трансмуральный инфаркт передней стенки левого желудочка. Было проведено ЧКВ."
+          }
+        ],
+        "contradictions": [
+          "ХСН 1 степени тяжести"
+        ]
+      },
+      "assignments": [
+        {
+          "titles": [
+            "Трамадол 500 мг",
+            "Фенкарол 25 мг"
+          ],
+          "urgent": true
+        },
+        {
+          "titles": [
+            "МРТ"
+          ],
+          "urgent": false
+        },
+        {
+          "titles": [
+            "Подготовка к операции"
+          ],
+          "urgent": false
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "status": "bad",
+      "lastName": "Енисеев",
+      "firstName": "Семён",
+      "surname": "Семёнович",
+      "spot": {
+        "department": "Therapy",
+        "house": "1",
+        "floor": "2",
+        "ward": "3",
+        "bed": "3"
+      },
+      "dossier": {
+        "dateOfBirth": "05.07.1959",
+        "previousDiseases": [
+          {
+            "title": "ОРВИ",
+            "ageOfIllness": 12,
+            "startOfTreatment": "25.11.1971",
+            "endOfTreatment": "30.11.1971",
+            "comments": "Осложнений нет."
+          },
+          {
+            "title": "Правосторонний халязион нижнего века",
+            "ageOfIllness": 19,
+            "startOfTreatment": "25.03.1979",
+            "endOfTreatment": "03.04.1979",
+            "comments": "Было проведено оперативное удаление."
+          },
+          {
+            "title": "Гипертонический криз",
+            "ageOfIllness": 44,
+            "startOfTreatment": "05.11.2003",
+            "endOfTreatment": "07.11.2003",
+            "comments": "Обратился в скорую помощь по причине резкого повышения АД до 175/90."
+          },
+          {
+            "title": "Инфаркт миокарда",
+            "ageOfIllness": 45,
+            "startOfTreatment": "17.08.2004",
+            "endOfTreatment": "23.08.2004",
+            "comments": "Субэпикардиальный инфаркт боковой стенки левого желудочка."
+          },
+          {
+            "title": "Аортокоронарное шунтирование",
+            "ageOfIllness": 64,
+            "startOfTreatment": "17.05.2023",
+            "endOfTreatment": "20.05.2023",
+            "comments": "Операция проведена успешно. Осложнений нет."
+          }
+        ],
+        "contradictions": [
+          "АГ 3 степени",
+          "ХСН 4 степени тяжести",
+          "СД 2 типа"
+        ]
+      },
+      "assignments": [
+        {
+          "titles": [
+            "Трамадол 500 мг",
+            "Фенкарол 25 мг"
+          ],
+          "urgent": true
+        },
+        {
+          "titles": [
+            "МРТ"
+          ],
+          "urgent": false
+        },
+        {
+          "titles": [
+            "Подготовка к операции"
+          ],
+          "urgent": false
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "status": "good",
+      "lastName": "Тургенев",
+      "firstName": "Николай",
+      "surname": "Григорьевич",
+      "spot": {
+        "department": "Therapy",
+        "house": "1",
+        "floor": "2",
+        "ward": "3",
+        "bed": "4"
+      },
+      "dossier": {
+        "dateOfBirth": "01.12.1977",
+        "previousDiseases": [
+          {
+            "title": "Ветряная оспа",
+            "ageOfIllness": 8,
+            "startOfTreatment": "23.09.1986",
+            "endOfTreatment": "12.10.1986",
+            "comments": "Без осложнений."
+          },
+          {
+            "title": "Онихомикоз",
+            "ageOfIllness": 35,
+            "startOfTreatment": "15.05.2013",
+            "endOfTreatment": "26.12.2013",
+            "comments": "Поражены 1-4 пальцы левой стопы. Цвет ногтевой пластины тусклый, желтоватый, ногти поперечно исчерченные, ломкие. После лечения рост здоровых ногтей."
+          }
+        ],
+        "contradictions": [
+          "Поллиноз"
+        ]
+      },
+      "assignments": [
+        {
+          "titles": [
+            "Трамадол 500 мг",
+            "Фенкарол 25 мг"
+          ],
+          "urgent": true
+        },
+        {
+          "titles": [
+            "МРТ"
+          ],
+          "urgent": false
+        },
+        {
+          "titles": [
+            "Подготовка к операции"
+          ],
+          "urgent": false
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "status": "good",
+      "lastName": "Кравченко",
+      "firstName": "Екатерина",
+      "surname": "Сергеевна",
+      "spot": {
+        "department": "Therapy",
+        "house": "1",
+        "floor": "2",
+        "ward": "3",
+        "bed": "5"
+      },
+      "dossier": {
+        "dateOfBirth": "06.05.2003",
+        "previousDiseases": [
+          {
+            "title": "Инородное тело в прямой кишке",
+            "ageOfIllness": 20,
+            "startOfTreatment": "04.02.2024",
+            "endOfTreatment": "04.02.2024",
+            "comments": "Подскользнулась и упала на огурец, после чего обратилась в ближайший травмпункт, где инородный предмет был успешно извлечён."
+          }
+        ],
+        "contradictions": [
+          "Аллергия на фенибут"
+        ]
+      },
+      "assignments": [
+        {
+          "titles": [
+            "Трамадол 500 мг",
+            "Фенкарол 25 мг"
+          ],
+          "urgent": true
+        },
+        {
+          "titles": [
+            "МРТ"
+          ],
+          "urgent": false
+        },
+        {
+          "titles": [
+            "Подготовка к операции"
+          ],
+          "urgent": false
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "status": "average",
+      "lastName": "Ага",
+      "firstName": "Сюмбюль",
+      "surname": "Муххамедович",
+      "spot": {
+        "department": "Therapy",
+        "house": "1",
+        "floor": "2",
+        "ward": "3",
+        "bed": "6"
+      },
+      "dossier": {
+        "dateOfBirth": "02.07.1986",
+        "previousDiseases": [
+          {
+            "title": "Вывих плеча",
+            "ageOfIllness": 27,
+            "startOfTreatment": "15.07.2013",
+            "endOfTreatment": "16.07.2013",
+            "comments": "Передний вывих левого плеча без осложнений. Успешно вправлен."
+          },
+          {
+            "title": "Алкогольный делирий",
+            "ageOfIllness": 35,
+            "startOfTreatment": "01.01.2022",
+            "endOfTreatment": "03.01.2022",
+            "comments": "По словам пациента, 3 дня видит сущностей, звуковые и визуальные галлюцинации мешали повседневной жизни и сну."
+          },
+          {
+            "title": "Колотая рана в области живота",
+            "ageOfIllness": 37,
+            "startOfTreatment": "28.12.2023",
+            "endOfTreatment": "10.01.2024",
+            "comments": "Колотая рана отвёрткой в левой подвздошной области с прободением нисходящей ободочной кишки, осложнённая кровотечением и развившимся в последствии перитонитом. В ходе проведённого оперативного вмешательства и последующего лечения пациент успешно пошёл на поправку и на момент выписки жалоб не предъявляет."
+          }
+        ],
+        "contradictions": [
+          "Аллергия на пыльцу злаковых"
+        ]
+      },
+      "assignments": [
+        {
+          "titles": [
+            "Трамадол 500 мг",
+            "Фенкарол 25 мг"
+          ],
+          "urgent": true
+        },
+        {
+          "titles": [
+            "МРТ"
+          ],
+          "urgent": false
+        },
+        {
+          "titles": [
+            "Подготовка к операции"
+          ],
+          "urgent": false
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "status": "bad",
+      "lastName": "Мандик",
+      "firstName": "Мария",
+      "surname": "Николаевна",
+      "spot": {
+        "department": "Therapy",
+        "house": "1",
+        "floor": "2",
+        "ward": "5",
+        "bed": "1"
+      },
+      "dossier": {
+        "dateOfBirth": "17.01.2015",
+        "previousDiseases": [
+          {
+            "title": "Ветряная оспа",
+            "ageOfIllness": 5,
+            "startOfTreatment": "04.02.2020",
+            "endOfTreatment": "19.02.2020",
+            "comments": "Без осложнений."
+          },
+          {
+            "title": "Отравление моющим средством",
+            "ageOfIllness": 8,
+            "startOfTreatment": "13.04.2023",
+            "endOfTreatment": "29.04.2020",
+            "comments": "Напилась мифа для мытья посуды. До приезда скорой мать дала дочери 6 таблеток активированного угля."
+          }
+        ],
+        "contradictions": []
+      },
+      "assignments": [
+        {
+          "titles": [
+            "Трамадол 500 мг",
+            "Фенкарол 25 мг"
+          ],
+          "urgent": true
+        },
+        {
+          "titles": [
+            "МРТ"
+          ],
+          "urgent": false
+        },
+        {
+          "titles": [
+            "Подготовка к операции"
+          ],
+          "urgent": false
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "status": "average",
+      "lastName": "Ульянова",
+      "firstName": "Валерия",
+      "surname": "Викторовна",
+      "spot": {
+        "department": "Therapy",
+        "house": "1",
+        "floor": "2",
+        "ward": "5",
+        "bed": "2"
+      },
+      "dossier": {
+        "dateOfBirth": "23.07.2010",
+        "previousDiseases": [
+          {
+            "title": "Чесотка",
+            "ageOfIllness": 11,
+            "startOfTreatment": "14.11.2021",
+            "endOfTreatment": "21.11.2021",
+            "comments": "Поражение межпальцевых складок правой кисти. Лечение прошло успешно, жалоб нет."
+          },
+          {
+            "title": "Ветряная оспа",
+            "ageOfIllness": 11,
+            "startOfTreatment": "09.05.2022",
+            "endOfTreatment": "19.05.2022",
+            "comments": "Без осложнений."
+          },
+          {
+            "title": "Анафилактический шок",
+            "ageOfIllness": 12,
+            "startOfTreatment": "24.08.2022",
+            "endOfTreatment": "26.08.2022",
+            "comments": "После укуса пчелы в области шеи развился ангионевротический отёк, была доставлена в больницу."
+          }
+        ],
+        "contradictions": [
+          "Аллергия на цитрусовые и рыбу",
+          "Повышенная чувствительность к укусам насекомых"
+        ]
+      },
+      "assignments": [
+        {
+          "titles": [
+            "Трамадол 500 мг",
+            "Фенкарол 25 мг"
+          ],
+          "urgent": true
+        },
+        {
+          "titles": [
+            "МРТ"
+          ],
+          "urgent": false
+        },
+        {
+          "titles": [
+            "Подготовка к операции"
+          ],
+          "urgent": false
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "status": "good",
+      "lastName": "Вищюк",
+      "firstName": "Алина",
+      "surname": "Альбертовна",
+      "spot": {
+        "department": "Therapy",
+        "house": "1",
+        "floor": "2",
+        "ward": "5",
+        "bed": "3"
+      },
+      "dossier": {
+        "dateOfBirth": "17.11.1979",
+        "previousDiseases": [
+          {
+            "title": "Атопический дерматит",
+            "ageOfIllness": 13,
+            "startOfTreatment": "26.10.1993",
+            "endOfTreatment": "03.11.1993",
+            "comments": "Симметричные зудящие высыпания на сгибательной поверхности локтей в ответ на поедание апельсинов. После применения наружных ГКС сыпь прошла."
+          },
+          {
+            "title": "Острая кровопотеря",
+            "ageOfIllness": 19,
+            "startOfTreatment": "18.10.1999",
+            "endOfTreatment": "19.10.1999",
+            "comments": "Травма голени после падения с велосипеда. Получила переливание эритроцитарной массы."
+          },
+          {
+            "title": "Острый бронхит",
+            "ageOfIllness": 23,
+            "startOfTreatment": "13.11.2003",
+            "endOfTreatment": "20.11.2003",
+            "comments": "Без осложнений."
+          }
+        ],
+        "contradictions": [
+          "Аллергия на пыль",
+          "Аллергия на плесень",
+          "Аллергия на цитрусовые",
+          "Аллергия яйца"
+        ]
+      },
+      "assignments": [
+        {
+          "titles": [
+            "Трамадол 500 мг",
+            "Фенкарол 25 мг"
+          ],
+          "urgent": true
+        },
+        {
+          "titles": [
+            "МРТ"
+          ],
+          "urgent": false
+        },
+        {
+          "titles": [
+            "Подготовка к операции"
+          ],
+          "urgent": false
+        }
+      ]
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "login": "1",
+      "password": "1",
+      "allowedPlaces": [
+        {
+          "department": "Therapy",
+          "house": 1,
+          "floor": 2
+        }
+      ]
+    }
+  ]
+}

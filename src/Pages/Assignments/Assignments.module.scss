@@ -1,0 +1,132 @@
+@import "src/styles/vars";
+@import "src/styles/mixins";
+
+.assignment {
+    &Content {
+        margin-top: 50px;
+        display: flex;
+        max-width: calc(980px / 1440px) * 100vw;
+        justify-content: space-between;
+
+        ol {
+            list-style-type: none;
+        }
+    }
+
+    &List {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 35vw;
+
+        &>li {
+            display: grid;
+            grid-template-columns: 1fr auto auto;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: 15px;
+            border: 1px solid #000;
+            width: 100%;
+
+            &>ol {
+                display: flex;
+                flex-direction: column;
+
+                &>li {
+                    @include font(1.9rem, 2.7rem, 400);
+                }
+            }
+
+            &:last-child {
+                position: relative;
+                height: 52px;
+            }
+        }
+    }
+
+    &Urgent {
+        background-color: #ff4d4d;
+    }
+
+    &DeleteButton {
+        cursor: pointer;
+        width: 64px;
+        height: 62px;
+        border-left: 1px solid #000;
+        position: relative;
+
+        span {
+            top: 47%;
+            left: 15%;
+            transform: translateY(-50%);
+            position: absolute;
+            background: #FF0000;
+            display: inline-block;
+            width: 42px;
+            height: 4px;
+        }
+
+        :first-child {
+            transform: rotate(45deg);
+        }
+
+        :nth-child(2) {
+            transform: rotate(-45deg);
+        }
+    }
+
+    &AddButton {
+        cursor: pointer;
+        span {
+            top: 47%;
+            left: 50%;
+            position: absolute;
+            background-color: $primary;
+            display: inline-block;
+            width: 42px;
+            height: 4px;
+        }
+
+        :first-child {
+            transform: translateX(-50%) rotate(90deg);
+        }
+
+        :nth-child(2) {
+            transform: translateX(-50%);
+        }
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .assignment {
+        &Content {
+            max-width: 100%;
+            padding-left: 15px;
+            padding-right: 15px;
+
+            display: grid;
+            grid-template-columns: auto 1fr;
+        }
+
+        &List {
+            width: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 515px) {
+    .assignment {
+        &Content {
+            margin-top: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 0;
+        }
+
+        &List {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+    }
+}

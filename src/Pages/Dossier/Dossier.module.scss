@@ -1,0 +1,135 @@
+@import "src/styles/vars";
+@import "src/styles/mixins";
+
+.dossier {
+    max-width: 1110px;
+    margin: 0 auto;
+    margin-top: 27px;
+
+    &Header {
+        display: flex;
+        justify-content: space-between;
+
+        .dischargeBtn {
+            height: 80px;
+            width: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            background-color: $lightPrimary;
+            border-radius: 15px;
+            @include font(2.4rem, 3.5rem, 400);
+            border: none;
+            cursor: pointer;
+        }
+    }
+
+
+    &Content {
+        margin-top: 23px;
+
+        h2 {
+            margin: 0;
+        }
+        &Title {
+            @include font(2.4rem, 3.5rem, 400);
+        }
+
+        &List {
+            list-style-type: none;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 30px;
+
+            li {
+                position: relative;
+                margin-top: 10px;
+
+                h3 {
+                    @include font(2.4rem, 2.4rem, 400);
+
+                    span {
+                        @include font(2.4rem, 2.4rem, 400);
+                    }
+                    margin: 0;
+
+                }
+
+                span {
+                    @include font(2rem, 2rem, 400);
+                }
+            }
+
+            li:before {
+                display: block;
+                content: "";
+                width: 10px;
+                border-radius: 55%;
+                position: absolute;
+                height: 10px;
+                background-color: #000;
+                left: -15px;
+                top: 7px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .dossier {
+        &Header {
+
+            .dischargeBtn {
+                height: 53px;
+                @include font(1.6rem, 2.3rem, 400);
+            }
+        }
+
+        &Content {
+            &Title {
+                @include font(1.8rem, 2.4rem, 400);
+            }
+            &List {
+                padding-left: 20px;
+                li {
+                    h3 {
+                        display: flex;
+                        flex-direction: column;
+                        @include font(1.6rem, 1.6rem, 400);
+
+                        margin-bottom: 15px;
+                        span {
+                            @include font(1.6rem, 1.6rem, 400);
+                        }
+                    }
+
+                    span {
+                        @include font(1.4rem, 1.4rem, 400);
+                    }
+                }
+
+                li:before {
+                    width: 7px;
+                    height: 7px;
+                    top: 4px;
+                    left: -10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 578px) {
+    .dossier {
+        &Header {
+            flex-direction: column;
+            gap: 15px;
+
+            .dischargeBtn {
+                width: 100%;
+            }
+        }
+    }
+}
