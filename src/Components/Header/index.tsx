@@ -71,8 +71,7 @@ const HeaderContent = styled.header<{ path: string; }>`
 
 
             .logotype {
-                grid-column: 1/3;
-                margin-inline: auto;
+                display: none;
             }
         }
     }

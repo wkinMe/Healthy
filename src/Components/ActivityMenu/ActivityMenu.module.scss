@@ -114,9 +114,14 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 645px) {
     .activityMenu {
-        top: 84px;
+        top: 40px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .activityMenu {
         width: 95%;
         display: grid;
         grid-template-columns: 1fr;
@@ -126,6 +131,12 @@
             min-width: 0;
             width: 100%;
         }
+    }
+}
+
+@media screen and (max-width: 515px) {
+    .activityMenu {
+        top: 114px;
     }
 }
 
